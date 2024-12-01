@@ -1,0 +1,266 @@
+*{
+    padding-top: 1px;
+    /* margin: 0; */
+   }
+   ::placeholder {
+color: rgb(85, 77, 77);
+opacity: 1; /* Firefox */
+} 
+body {
+    background-color: #f1e7e7;
+}
+
+    nav{
+        display: flex;
+       background-image: url("https://img.freepik.com/premium-photo/indian-lunch-dinner-main-course-food-group-includes-paneer-butter-masala-dal-makhani-palak-paneer-roti-rice-etc-selective-focus_466689-6730.jpg?w=1060" );
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       justify-content: space-between;
+       height: 110px;
+       padding: 0px 10px 0px 10px;
+       align-items: center;
+       
+      
+    }
+    
+     .menu ul{
+
+            display: flex;
+            gap: 30px;
+           color: antiquewhite;
+           align-items: end;
+           list-style-type: none;
+           font-size: larger;
+           font-weight: 800;
+           font-family: Arial, Helvetica, sans-serif;
+    
+            
+         }
+         .menu ul li:hover{
+            background-color: rgb(113, 43, 89);
+            cursor: pointer;
+            
+         }
+        nav .logo img{
+            border-radius: 70%;
+        }
+        .search{
+            margin-right: 280px;
+        }
+        .menu1{
+            /* background-color: #f0d9d9; */
+            /* background-image: url("https://img.freepik.com/free-vector/blank-vintage-scroll-paper_1308-78917.jpg?t=st=1733043112~exp=1733046712~hmac=f24f5de09147907b4eb22130bcc8f3470a70b87db0988cd4fe23484123dcdc02&w=1380"); */
+            background-position: center;
+            justify-content: center;       
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            margin: 0px 600px 20px 600px;
+            position: relative;
+            /* border: 1px solid #333; */
+            /* border-radius: 15px; */
+            
+         }
+         
+            .menu2{
+         /* padding: 0px 500px 0px 700px; */
+         /* align-items: center; */
+         color: rgb(6, 6, 6);
+         text-decoration: underline;
+         font-size: large;
+         
+            }
+
+.gallery {
+ /* margin-right: 1182px; */
+ padding: 0% 20% 0% 18% ;
+ position: relative;
+ /* display: flex; */
+ /* justify-content: center;
+    align-items: center;
+    height: 100vh; */
+ 
+}
+
+.gal1{
+    position: absolute;
+    border: 2px solid rgb(131, 2, 68);
+    margin-left: 0px;
+    margin-right: 100%;
+}
+.gal1:hover{
+    transform: scale(1.1);
+    /* transition-duration: 0.5s; */
+    background-color: rgb(243, 215, 163);
+}
+.gal2{
+position: absolute;
+border: 2px solid rgb(4, 164, 52);
+/* padding-left: 200px; */
+margin-left: 200px;
+margin-right: 100%;
+}
+.gal2:hover{
+    transform: scale(1.1);
+    /* transition-duration: 0.5s; */
+    background-color: rgb(243, 215, 163);
+}
+
+/* .gallery img{ */
+/* margin-bottom: 0; */
+/* margin-top: 0; */
+/* } */
+.gallery h4 {
+margin-top: 0;
+margin-bottom: 0;
+text-align: center;
+
+}
+.gallery p {
+margin-top: 0;
+margin-bottom: 0;
+text-align: center;
+font-size: small;
+
+}
+.gal3{
+    position: absolute;
+    border: 2px solid rgb(2, 107, 125);
+    /* padding-left: 200px; */
+    /* position: absolute; */
+    margin-left: 400px;
+    margin-right: 100%;
+    /* margin-left: 15px; */
+    }
+    .gal3:hover{
+        transform: scale(1.1);
+        /* transition-duration: 0.5s; */
+        background-color: rgb(243, 215, 163);
+    }
+    .gal4{
+        position: absolute;
+        border: 2px solid rgb(155, 107, 4);
+        margin-left: 600px;
+        margin-right: 100%;
+    
+        }
+    .gal4:hover{
+            transform: scale(1.1);
+            /* transition-duration: 0.5s; */
+            background-color: rgb(243, 215, 163);
+        }
+    .gal5{
+            position: absolute;
+            border: 2px solid rgb(11, 4, 151);
+            margin-left: 800px;
+            margin-right: 100%;
+                   
+        }
+    .gal5:hover{
+                transform: scale(1.1);
+                /* transition-duration: 0.5s; */
+                background-color: rgb(243, 215, 163);
+        }
+        .border2 {
+            border: 2px solid black;
+} 
+
+.order1 {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 240px;
+}
+
+.container {
+    background-color: #fae8c3;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 10px 10px  20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea { 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #36833c;
+    transform: scale(1.1);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.Lorem1{
+    position: relative;
+    margin-top: 0px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 2px 2px 2px 9px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    
+}
+
+.Lorem1 h4 {
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.top{
+    
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+  }
